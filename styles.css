@@ -1,0 +1,54 @@
+.body-image{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    background-color: steelblue;
+    background-image: url("./AIworld.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    color: #fff;
+    height: 100vh;
+    min-height: 400px;
+
+}
+.container{
+    max-width: 900px !important;
+}
+.color-back{
+    background-color: #04003F;
+}
+.color-font{
+    color: #04003F;
+}
+.color-line{
+    background-color: #00b9fe;
+    height: 1px;
+}
+
+.heading{
+   border-bottom: 1px solid  #00b9fe;
+   padding-bottom: 5px;
+   width: max-content;
+   max-width: 100%;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.hero-content{
+    width: 50%;
+}
+@media only screen and (max-width: 600px) {
+    .hero-content{
+        width: 80%;
+    }
+  }
